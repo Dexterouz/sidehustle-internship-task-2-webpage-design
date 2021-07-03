@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c2431;
+}
+body .navigation {
+  display: flex;
+  padding: 25px 35px;
+  justify-content: space-between;
+}
+body .navigation .nav-item ul li {
+  font-family: "Raleway";
+  vertical-align: middle;
+  display: inline;
+  padding-left: 30px;
+}
+body .navigation .nav-item ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+body .navigation .nav-item ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+body .landing-wrapper .landing {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Raleway";
+  color: white;
+  padding: 10px;
+}
+body .landing-wrapper .landing h1 {
+  line-height: 3.1rem;
+}
+body .landing-wrapper .landing .illustration-desc {
+  font-family: "Open Sans";
+  text-align: center;
+}
+body .landing-wrapper .landing .get-started-btn {
+  margin-top: 30px;
+}
+body .landing-wrapper .landing .get-started-btn button {
+  width: 50%;
+  font-family: "Raleway";
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  background-color: #339ecc;
+}
+body .landing-wrapper .landing .get-started-btn button:hover {
+  background-color: #65e2d9;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+body .content {
+  position: relative;
+  background-color: #181f2a;
+  color: white;
+}
+body .content .section-1 {
+  display: flex;
+  justify-content: center;
+}
+body .content .section-1 .section-item {
+  flex-basis: 30%;
+  text-align: center;
+  margin: 45px;
+}
+body .content .section-1 .section-item h3 {
+  font-family: "Raleway";
+}
+body .content .section-1 .section-item div {
+  font-family: "Open Sans";
+}
+body .content .section-2 {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+body .content .section-2 .section-item {
+  margin: 40px;
+}
+body .content .section-2 .section-item h1 {
+  font-family: "Raleway";
+  font-size: 3rem;
+}
+body .content .section-2 .section-item p, body .content .section-2 .section-item a {
+  font-family: "Open Sans";
+}
+body .content .section-2 .section-item .link-wrapper .link {
+  color: #65e2d9;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid;
+}
+body .content .section-2 .section-item .link-wrapper .link .fa {
+  vertical-align: middle;
+  font-size: 14px;
+}
+body .content .section-2 .section-item .link-wrapper .link:hover {
+  color: white;
+}
+body .content .quote {
+  position: relative;
+  left: 36px;
+  top: 30px;
+  z-index: -1;
+}
+body .content .testimonial-wrapper {
+  position: relative;
+  margin-top: 60px;
+}
+body .content .testimonial-wrapper .quote {
+  position: absolute;
+  left: 36px;
+  top: -25px;
+  z-index: 1;
+}
+body .content .testimonial-wrapper .section-3 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+body .content .testimonial-wrapper .section-3 .section-item {
+  flex-basis: 30%;
+  font-family: "Open Sans";
+  margin: 10px;
+}
+body .content .testimonial-wrapper .section-3 .section-item .testimonials {
+  border-radius: 5px;
+  padding: 25px 30px;
+  background-color: #202a3c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body .content .testimonial-wrapper .section-3 .section-item .testimonials .profile {
+  display: flex;
+  align-items: center;
+}
+body .content .testimonial-wrapper .section-3 .section-item .testimonials .profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+body .content .testimonial-wrapper .section-3 .section-item .testimonials .profile .profile-desc {
+  font-size: 12px;
+}
+body .content .get-started {
+  position: relative;
+  top: 110px;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 35px;
+  background-color: #1c2431;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body .content .get-started h1 {
+  font-family: "Raleway";
+}
+body .content .get-started div {
+  font-family: "Open Sans";
+  padding: 5px 20px;
+}
+body .content .get-started form {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+body .content .get-started form .email, body .content .get-started form .sub-btn {
+  margin: 10px;
+}
+body .content .get-started form .error {
+  position: relative;
+  bottom: 10px;
+  display: block;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 14px;
+  color: #ff4242;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+body .content .get-started form input[type=email] {
+  flex-basis: 60%;
+  border: none;
+  border-radius: 50px;
+  padding: 20px;
+  outline: none;
+}
+body .content .get-started form input[type=submit] {
+  flex-basis: 30%;
+  border: none;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #339ecc;
+}
+body .content .get-started form input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #65e2d9;
+}
+body footer {
+  padding: 150px 40px 40px 40px;
+  background-color: #0b1523;
+}
+body footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 45px;
+  margin-right: 25px;
+  font-size: 14px;
+  color: white;
+  font-family: "Open Sans";
+}
+body footer .footer-content .footer-item {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+body footer .footer-content .footer-item:nth-child(1) {
+  flex-basis: 30%;
+  display: flex;
+  align-items: flex-start;
+}
+body footer .footer-content .footer-item:nth-child(1) img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+body footer .footer-content .footer-item:nth-child(2) .icon-phone, body footer .footer-content .footer-item:nth-child(2) .icon-email {
+  margin-bottom: 15px;
+}
+body footer .footer-content .footer-item:nth-child(2) .icon-phone img, body footer .footer-content .footer-item:nth-child(2) .icon-email img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+body footer .footer-content .footer-item:nth-child(3), body footer .footer-content .footer-item:nth-child(4) {
+  display: flex;
+  align-items: flex-start;
+}
+body footer .footer-content .footer-item:nth-child(3) ul, body footer .footer-content .footer-item:nth-child(4) ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+body footer .footer-content .footer-item:nth-child(3) ul li, body footer .footer-content .footer-item:nth-child(4) ul li {
+  padding: 0 0 15px;
+}
+body footer .footer-content .footer-item:nth-child(3) ul li a, body footer .footer-content .footer-item:nth-child(4) ul li a {
+  font-family: "Open Sans";
+  color: white;
+  text-decoration: none;
+}
+body footer .footer-content .footer-item:nth-child(3) ul li a:hover, body footer .footer-content .footer-item:nth-child(4) ul li a:hover {
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+body footer .footer-content .footer-item:nth-child(5) div a {
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+body footer .footer-content .footer-item:nth-child(5) div a:hover {
+  color: #65e2d9;
+}
+
+@media screen and (max-width: 768px) {
+  body .navigation {
+    padding: 0px 10px;
+  }
+  body .navigation .brand {
+    align-self: center;
+    flex: 1;
+  }
+  body .navigation .brand img {
+    width: 40%;
+  }
+  body .navigation .nav-item {
+    align-self: flex-start;
+  }
+  body .navigation .nav-item ul {
+    padding: 0px;
+  }
+  body .navigation .nav-item ul li {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  body .landing-wrapper .landing {
+    width: 90%;
+  }
+  body .landing-wrapper .landing img {
+    width: 80%;
+  }
+  body .landing-wrapper .landing .illustration-desc {
+    font-family: "Open Sans";
+    text-align: center;
+  }
+  body .landing-wrapper .landing .get-started-btn {
+    margin-top: 30px;
+  }
+  body .landing-wrapper .landing .get-started-btn button {
+    width: 80%;
+  }
+  body .content .section-1 {
+    flex-direction: column;
+  }
+  body .content .section-1 .section-item {
+    flex-basis: 100%;
+  }
+  body .content .section-2 {
+    flex-direction: column;
+  }
+  body .content .section-2 .section-item {
+    margin: 25px 25px;
+  }
+  body .content .section-2 .section-item img {
+    width: 100%;
+  }
+  body .content .section-2 .section-item h1 {
+    font-size: 1.2rem;
+  }
+  body .content .testimonial-wrapper {
+    margin-top: 100px;
+  }
+  body .content .testimonial-wrapper .quote {
+    width: 25px;
+    left: 36px;
+    top: -9px;
+  }
+  body .content .testimonial-wrapper .section-3 {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  body .content .testimonial-wrapper .section-3 .section-item .testimonials {
+    padding: 25px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  body .content .get-started {
+    width: 80%;
+    top: 160px;
+    padding: 20px;
+  }
+  body .content .get-started h1 {
+    font-size: 18px;
+  }
+  body .content .get-started div {
+    margin-top: 30px;
+    padding: 0px 0px;
+  }
+  body .content .get-started form {
+    flex-direction: column;
+  }
+  body .content .get-started form .error {
+    order: 2;
+  }
+  body .content .get-started form input[type=email] {
+    order: 1;
+  }
+  body .content .get-started form input[type=submit] {
+    order: 3;
+  }
+  body footer {
+    padding-top: 200px;
+    padding-bottom: 10px;
+  }
+  body footer .footer-content {
+    flex-direction: column;
+    padding: 20px 0;
+    margin-right: 0;
+  }
+  body footer .footer-content .footer-item:nth-child(5) {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
